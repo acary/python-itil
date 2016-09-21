@@ -13,4 +13,13 @@ print(st)
 print(so)
 print(ci)
 
+itil = [ss, sd, st, so, ci]
+
+print(itil)
+
+if itil[0] == ss:
+    print("Let's start with Service Strategy")
+else:
+    print("It all starts with strategy...")
+
 exit()
