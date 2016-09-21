@@ -22,4 +22,7 @@ if itil[0] == ss:
 else:
     print("It all starts with strategy...")
 
+for phases in itil:
+    print(phases)
+
 exit()
