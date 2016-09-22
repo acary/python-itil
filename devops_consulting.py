@@ -1,5 +1,7 @@
-# Define business attributes
+# Import libraries
+from random import randint
 
+# Define business attributes
 class Business:
     name = "Company name"
     industry = "Industry"
@@ -7,7 +9,6 @@ class Business:
     revenue = 1000000
 
 # Define business challenges
-
 challenges  = []
 
 # App hosting
@@ -25,3 +26,10 @@ challenges.append(analytics)
 # Display business challenges
 
 print(challenges)
+
+# Test ticket identification
+ticket_no = randint(0, 9)
+print(ticket_no)
+
+if (len(challenges) > 0):
+    print("Services are required to address challenges. The ticket number is " + str(ticket_no) + ".")
