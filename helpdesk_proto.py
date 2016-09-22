@@ -6,17 +6,23 @@ class Ticket():
     priority = 3
     department = "Accounting"
 
+# Track tickets
+
+queue = []
 
 
 # Create ticket
 
 x = Ticket()
+queue.append(x)
+
 y = Ticket()
+queue.append(y)
 
+# Print ticket queue
 
+print(queue)
 
+# Print reports
 
-# Print ticket
-
-print(x)
-print(y)
+print(type(queue))
