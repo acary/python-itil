@@ -29,7 +29,6 @@ print(challenges)
 
 # Test ticket identification
 ticket_no = randint(0, 9)
-print(ticket_no)
 
 if (len(challenges) > 0):
     print("Services are required to address challenges. The ticket number is " + str(ticket_no) + ".")
