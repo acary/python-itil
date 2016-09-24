@@ -1,10 +1,13 @@
 # Import libraries
-
+import math
+import random
 
 # Define applications modules
 
 def count_modules():
     i = 0
+
+count_modules()
 
 # Authentication and login
 
@@ -41,13 +44,14 @@ def settings(str):
     print("Adjust your settings here, " + str)
 
 # Show test output
-
+test_seed = random.randint(1, 10)
+results = math.exp(test_seed)
+print("Results: " + str(results))
 
 ################
 # Run Program
 ################
 
-count_modules()
 sign_up("Aurora")
 login("Aurora")
 show_report(4)
