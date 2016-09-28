@@ -1,6 +1,8 @@
 # Import libraries
+import os
 import math
 import random
+import urllib.request
 
 # Define applications modules
 
@@ -48,10 +50,20 @@ test_seed = random.randint(1, 10)
 results = math.exp(test_seed)
 print("Results: " + str(results))
 
+# Run main Program
+
+def main():
+    # Open connection to URL using urllib2
+    webUrl = urllib.request.urlopen("http://google.com")
+
+    # Get result code and print it
+    print("Result code: " + str(webUrl.getcode()))
+
 ################
 # Run Program
 ################
 
+print(os.name)
 sign_up("Aurora")
 login("Aurora")
 show_report(4)
@@ -59,3 +71,5 @@ show_main("Here")
 send_msg("Hello")
 receive_msg("Hello")
 settings("Bleep")
+
+main()
