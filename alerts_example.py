@@ -2,7 +2,7 @@
 import random
 
 # define states
-s0 = "In service (operational)"
+s0 = "In service"
 s1 = "Out of service"
 s2 = "Updates required"
 s3 = "Standby"
@@ -37,3 +37,28 @@ print(super_c3)
 print(super_c4)
 print(super_c5)
 print(super_c6)
+
+# check if any components include out-of-service states
+
+super_components = [super_c0, super_c1, super_c2, super_c3, super_c4, super_c5, super_c6]
+
+if s1 in super_c0:
+    print("The " + str(c0) + " needs attention.")
+
+if s1 in super_c1:
+    print("The " + str(c1) + " needs attention.")
+
+if s1 in super_c2:
+    print("The " + str(c2) + " needs attention.")
+
+if s1 in super_c3:
+    print("The " + str(c3) + " needs attention.")
+
+if s1 in super_c4:
+    print("The " + str(c4) + " needs attention.")
+
+if s1 in super_c5:
+    print("The " + str(c5) + " needs attention.")
+
+if s1 in super_c6:
+    print("The " + str(c6) + " needs attention.")
