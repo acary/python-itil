@@ -1,0 +1,6 @@
+DEVICE,IP,NAME
+Lab-Laptop,192.168.0.1,Primary
+Mobile-Tablet,192.168.0.2,Tablet
+Mobile-Phone,192.168.0.3,Phone
+Lab-Desktop,192.168.0.4,Desktop
+Raspberry-Pi,192.168.0.5,Raspberry Pi
