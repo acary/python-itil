@@ -40,3 +40,9 @@ print("--- %s seconds ---" % (time.time() - start_time))
 # exit
 
 exit()
+
+# To Do:
+
+# Create functions to add or remove devices
+
+# Define devices as dictionaries
