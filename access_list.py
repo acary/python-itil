@@ -41,6 +41,8 @@ def drop_from_network(device, network):
 # Add device to network
 add_to_network(phone1, net1)
 add_to_network(tablet1, net1)
+add_to_network(laptop1, net1)
+add_to_network(desktop1, net1)
 
 # Remove device from network
 drop_from_network(phone1, net1)
