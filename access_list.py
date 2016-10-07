@@ -63,7 +63,3 @@ print("--- %s seconds ---" % (time.time() - start_time))
 # exit
 
 exit()
-
-# To Do:
-
-# Define devices as dictionaries
